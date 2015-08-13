@@ -60,9 +60,20 @@
 	@media screen and (min-width: 1025px) {
 		.wrapper {
 			width: 1015px;
+			height:auto;
+			overflow:hidden;
+			border:solid 1px #000;
 		}
 	}
-
+	@media \0screen and (min-width: 1025px) {
+		.wrapper {
+			width: 1015px;
+			height:auto;
+			overflow:hidden;
+			border:solid 1px #000;
+		}
+	}
+		
 	@media screen and (max-width: 1024px) {
 		.wrapper {
 			width: 94%;/* Check here width */
