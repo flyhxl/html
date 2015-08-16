@@ -269,6 +269,8 @@
 		width: 100%;
 		border-bottom: 1px solid #DADADA;
 		box-shadow: 0 1px 0 #FCFCFC;
+		position:fixed;
+		z-index:3;
 	}
 
 	.user {
@@ -487,7 +489,7 @@
 /* Main Header */
 
 	.main_header {
-		padding: 20px 0;
+		padding: 60px 0 20px 0;
 		overflow: hidden;
 		width: 100%;
 	}
