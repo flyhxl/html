@@ -56,13 +56,14 @@
 	.clear {
 		clear: both;
 	}
-
+	.none {
+		display: none;
+	}
 	@media screen and (min-width: 1025px) {
 		.wrapper {
 			width: 1015px;
 			height:auto;
-			overflow:hidden;
-			border:solid 1px #000;
+			
 		}
 	}
 	@media \0screen and (min-width: 1025px) {
@@ -489,7 +490,7 @@
 /* Main Header */
 
 	.main_header {
-		padding: 60px 0 20px 0;
+		padding: 50px 0 20px 0;
 		overflow: hidden;
 		width: 100%;
 	}
@@ -810,7 +811,7 @@
 
 	.label {
 		font-family: Droid Sans;
-		color: #8f8f8f;
+		color: #221E1B;
 		font-size: 13px;
 		text-shadow: 0 1px 0 #FFFFFF;
 	}
@@ -863,15 +864,15 @@
 
 	.tab_label {
 		font-family: Oswald;
-		color: #9D9D9D;
-		font-size: 18px;
+		color: #221E1B;
+		font-size: 16px;
 		text-shadow: 0 1px 0 #FFFFFF;
 	}
 
 	.contact_head {
 		margin: 0;
 		font-family: Oswald;
-		color: #9D9D9D;
+		color: #221E1B;
 		font-size: 16px;
 		text-shadow: 0 1px 0 #FFFFFF;
 		font-weight: normal;
@@ -1440,7 +1441,7 @@
 
 	.tables th {
 		font-family: Oswald;
-		color: #9D9D9D;
+		color: #221E1B;
 		font-size: 13px;
 		text-shadow: 0 1px 0 #FFFFFF;
 		font-weight: normal;
